@@ -15,7 +15,7 @@ set undofile
 set undodir=$HOME/.config/nvim/undodir
 " Set swap
 set swapfile
-set directory=$HOME/.config/nvim/swap
+set directory^=$HOME/.config/nvim/swap//
 " Number lines in hybrid mode. Absolute + relative.
 set number relativenumber
 " Show matching brackets.
